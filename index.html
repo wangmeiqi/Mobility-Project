@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>个人作品</title>
+    <link type="image/x-icon" rel="icon" href="img/icon.png">
+    <!--引入css-->
+    <link charset="utf-8" type="text/css" rel="stylesheet" href="css/reset.min.css"/>
+    <link charset="utf-8" type="text/css" rel="stylesheet" href="css/swiper.min.css"/>
+    <link charset="utf-8" type="text/css" rel="stylesheet" href="css/animate.css"/>
+    <link charset="utf-8" type="text/css" rel="stylesheet" href="css/index.css"/>
+
+    <script type="text/javascript">
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 640 * 100 + 'px';
+    </script>
+</head>
+<body>
+<!--<a style="display:none;position:absolute;top:0;left: 0;z-index:2000;box-sizing:border-box;padding-left:.2rem;width:100%;height: .5rem;line-height: .5rem; background: rgba(0,0,0,0.3);color: #FFF;"-->
+   <!--href="javascript:;" id="goBack">返回主页</a>-->
+
+
+
+<!--LOADING-->
+<section class="loading" id="loading">
+    <div class="title">
+        <h1>个人作品</h1>
+        <h2>H5场景的交互型作品</h2>
+    </div>
+    <div class="progress">
+        <div class="progressBox"></div>
+    </div>
+</section>
+
+<!--PHONE-->
+<section class="phone" id="phone">
+    <h2><img src="img/phoneLogo.png"/></h2>
+
+    <div class="time">00:00</div>
+
+    <div class="listen">
+        <div class="move"></div>
+        <div class="touch"></div>
+    </div>
+    <div class="details">
+        <div class="touch"></div>
+    </div>
+    <audio src="audio/bell.mp3" preload="none" loop id="listenMusic"></audio>
+    <audio src="audio/music.mp3" preload="none" id="detailsMusic"></audio>
+</section>
+
+<!--MESSAGE-->
+<section class="message" id="message">
+    <ul class="messageList">
+        <li class="job">
+            你好，介绍一下你的技能吧
+            <em></em>
+            <img src="img/messageStudent.png"/>
+        </li>
+        <li class="me">
+            我精通HTML/CSS等前端技术，并且熟悉各主流浏览器代码的兼容处理；
+            <em></em>
+            <img src="img/messageLogo.png"/>
+        </li>
+        <li class="me">
+            熟练掌握原生JS和面向对象的封装，能够熟练使用jQuery库；
+            <em></em>
+            <img src="img/messageLogo.png"/>
+        </li>
+        <li class="job">
+            继续
+            <em></em>
+            <img src="img/messageStudent.png"/>
+        </li>
+        <li class="me">
+            熟练使用HTML5/CSS3，可以处理响应式布局、流式布局的开发；并且可以熟练使用swiper/iscroll/Zepto    /bootstrap/Less等；
+            <em></em>
+            <img src="img/messageLogo.png"/>
+        </li>
+        <li class="me">
+            熟悉React/Angular等主流框架开发思想，了解nodejs；
+            <em></em>
+            <img src="img/messageLogo.png"/>
+        </li>
+        <li class="me">
+            能够熟练使用gulp/webpack进行项目打包；
+            <em></em>
+            <img src="img/messageLogo.png"/>
+        </li>
+        <li class="me">
+            有良好的代码习惯，能熟练使用git等版本管理工具
+            <em></em>
+            <img src="img/messageLogo.png"/>
+        </li>
+        <li class="job">
+            好，性格怎么样呢？
+            <em></em>
+            <img src="img/messageStudent.png"/>
+        </li>
+        <li class="me">
+            乐观向上，可以给团队带来积极的氛围
+            <em></em>
+            <img src="img/messageLogo.png"/>
+        </li>
+        <li class="me">
+            对于新的事物比较感兴趣，善于学习的
+            <em></em>
+            <img src="img/messageLogo.png"/>
+        </li>
+    </ul>
+    <div class="keyBoard">
+        <span class="textTip"></span>
+        <span class="submit"></span>
+    </div>
+    <audio src="audio/music.mp3" preload="none" loop id="messageMusic"></audio>
+</section>
+
+<!--CUBE-->
+<section class="cube" id="cube">
+    <ul class="cubeBox">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="tip"></div>
+</section>
+
+<!--SWIPER-->
+<section class="swiper" id="swiper">
+    <div class="return"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!--技术介绍-->
+            <div class="swiper-slide page1">
+                <dl id="makisu">
+                    <dt>技术介绍</dt>
+                    <dd><em>01</em><a href="#">精通HTML/CSS等前端技术</a></dd>
+                    <dd><em>02</em><a href="#">熟悉各主流浏览器代码的兼容处理</a></dd>
+                    <dd><em>03</em><a href="#">熟练掌握原生JS和面向对象的封装</a></dd>
+                    <dd><em>04</em><a href="#">熟练使用jQuery库</a></dd>
+                    <dd><em>05</em><a href="#">熟练使用HTML5/CSS3</a></dd>
+                    <dd><em>06</em><a href="#">可以处理响应式布局、流式布局的开发</a></dd>
+                    <dd><em>07</em><a href="#">熟练使用swiper/iscroll/Less等</a></dd>
+                    <dd><em>08</em><a href="#">熟悉React/Angular等框架开发思想</a></dd>
+                    <dd><em>09</em><a href="#">熟练使用gulp/webpack进行项目打包</a></dd>
+                    <dd><em>10</em><a href="#">了解nodejs</a></dd>
+                    <dd><em>11</em><a href="#">熟练使用git等版本管理工具</a></dd>
+                </dl>
+            </div>
+
+            <!--技能展示-->
+            <div class="swiper-slide page2">
+                <h2>技能展示</h2>
+
+                <div class="box">
+                    <img src="img/course.png" alt=""/>
+                    <img src="img/course1.png" alt=""/>
+                    <img src="img/course2.png" alt=""/>
+                    <img src="img/course3.png" alt=""/>
+                    <img src="img/course4.png" alt=""/>
+                    <img src="img/course5.png" alt=""/>
+                    <img src="img/course6.png" alt=""/>
+                </div>
+            </div>
+
+            <!--求职意向-->
+            <div class="swiper-slide page3">
+                <h2></h2>
+                <ul class="box">
+                    <li>
+                        <img src="img/p1.jpg"/>
+
+                        <div class="detail">
+                            <p>姓名</p>
+
+                            <p>王美琦</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/p2.png"/>
+
+                        <div class="detail">
+                            <p>求职意向</p>
+
+                            <p>前端开发工程师</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/p3.png"/>
+
+                        <div class="detail">
+                            <p>期望薪资</p>
+
+                            <p>9K-12K</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--工作经历-->
+            <div class="swiper-slide page4">
+                <p>2016.3至今</p>
+                <p>北京小能科技有限公司</p>
+                <p>前端开发工程师</p>
+                <p>2014.3-2016.3</p>
+                <p>三五互联科技股份有限公司</p>
+                <p>前端开发</p>
+
+            </div>
+
+            <!--项目经历-->
+            <div class="swiper-slide page5">
+                <img src="img/project1.jpg"/>
+                <img src="img/project2.png"/>
+                <img src="img/project3.jpg"/>
+                <div class="tip">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!--联系方式-->
+            <div class="swiper-slide page6">
+                <h2>
+                    <span>联系方式</span>
+                    <span>concat us</span>
+                </h2>
+                <ul class="concat">
+                    <li>
+                        <div class="icon"></div>
+                        <div class="textCon">
+                            <span>QQ:</span>529800971<br/>
+                            <span>手机:</span>18614028512
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon"></div>
+                        <div class="textCon">
+                            <span>籍贯:</span><br/>
+                            河北保定
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--导入需要的JS-->
+<script charset="utf-8" type="text/javascript" src="js/zepto.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/swiper.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/makisu.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/fastclick.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
